@@ -1,0 +1,6 @@
+*.bak
+.DS_Store
+go.work
+go.work.sum
+tags
+tmp*

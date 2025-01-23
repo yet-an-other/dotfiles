@@ -14,5 +14,3 @@ clone https://github.com/yet-an-other/dotfiles.git .
 ```bash
 ln -s ~/projects/dotfiles/wezterm ~/.config/wezterm
 ```
-
-

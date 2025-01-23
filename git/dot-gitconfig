@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file. 
+# ~/.gitconfig
+# ln -s ~/projects/dotfiles/git/ ~/.config/git
+# ln -s ~/projects/dotfiles/git/dot-gitconfig ~/.gitconfig
+
+[user]
+        name = IB
+        email = main@ivan-b.com
+
+[core]
+        editor = nano
+        excludesfile = ~/.config/git/gitignore_global
+
+[branch]
+        # https://blog.gitbutler.com/git-tips-2-new-stuff-in-git/#some-git-branch-stuff
+        # sort branches by commit date
+        #
+        sort = -committerdate
+
+[credential "https://github.com"]
+        helper = store
+        username = yet-an-other
