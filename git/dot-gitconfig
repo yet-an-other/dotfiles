@@ -20,3 +20,7 @@
 [credential "https://github.com"]
         helper = store
         username = yet-an-other
+
+[credential "https://gitlabci.raiffeisen.ru"]
+        #username = Ivan Bodyagin
+        email = ivan.bodyagin@raiffeisen.ru
