@@ -1,0 +1,7 @@
+macos-titlebar-style = tabs
+background-opacity = 0.93  
+copy-on-select = clipboard
+quit-after-last-window-closed = true
+
+window-padding-x = 10
+window-padding-y = 10
