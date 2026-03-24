@@ -8,8 +8,9 @@
         email = main@ivan-b.com
 
 [core]
-        editor = nano
+        editor = nvim
         excludesfile = ~/.config/git/gitignore_global
+	      pager = cat
 
 [branch]
         # https://blog.gitbutler.com/git-tips-2-new-stuff-in-git/#some-git-branch-stuff
@@ -22,5 +23,3 @@
         username = yet-an-other
 
 [credential "https://gitlabci.raiffeisen.ru"]
-        #username = Ivan Bodyagin
-        email = ivan.bodyagin@raiffeisen.ru
