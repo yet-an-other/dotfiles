@@ -100,8 +100,15 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='nvim'
 # fi
-export EDITOR='nvim'
-alias svim='sudo -e'
+export EDITOR='$(command -v nvim)'
+#export VISUAL='$(command -v nvim)'
+#export SUDO_EDITOR='$(command -v nvim)'
+
+svim() {
+  local editor
+  editor="$(command -v nvim)" || return 1
+  SUDO_EDITOR="$editor" sudoedit "$@"
+}
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
